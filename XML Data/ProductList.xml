@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<productlist>
+  <!-- Tools Category -->
+  <product>
+    <category>Tools</category>
+    <code>T0001</code>
+    <name>Maxwells Corded Drill</name>
+    <price>79.00</price>
+    <image>drill.png</image>
+    <description>Maxwells corded drill is designed to meet the needs of todays builder. Featuring a powerful motor and comfortable grip, the Maxwells corded drill is the perfect companion for your drilling needs.</description>
+  </product>
+  <product>
+    <category>Tools</category>
+    <code>T0002</code>
+    <name>Maxwells Silver Claw Hammer</name>
+    <price>32.00</price>
+    <image>hammer.png</image>
+    <description>The claw hammer is a builders constant companion, this popular hammer shape has been specifically designed for general carpentry work and pulling out of nails.</description>
+  </product>
+  <product>
+    <category>Tools</category>
+    <code>T0003</code>
+    <name>Maxwells 3m Metric Tape Measure</name>
+    <price>9.00</price>
+    <image>tape_measure.png</image>
+    <description>The Maxwells tape measure features accurate readings from the single milimetre all the way to up to 3 metres.</description>
+  </product>
+  <!-- Hardware Category -->
+  <product>
+    <category>Hardware</category>
+    <code>H0004</code>
+    <name>Galvanised Steel Screws 25mm (box of 50)</name>
+    <price>8.50</price>
+    <image>screw.png</image>
+    <description>Ideal for fixing of timber, these 25mm philips head galvanised steel screws are resistant to the weather, rain or shine. Includes 50 screws per box.</description>
+  </product>
+  <product>
+    <category>Hardware</category>
+    <code>H0005</code>
+    <name>Galvanised Steel Bolts 8mm (box of 10)</name>
+    <price>16.50</price>
+    <image>bolt.png</image>
+    <description>These galvanised steel bolts are 8mm in diametre and are designed for fixing both timber and metal. Being galvanised steel they are resitant to corosion and will last for many years, even when exposed to the weather. Includes 10 bolts per box.</description>
+  </product>
+  <product>
+    <category>Hardware</category>
+    <code>H0006</code>
+    <name>Galvanised Steel Nails 50mm (box of 100)</name>
+    <price>6.50</price>
+    <image>nail.png</image>
+    <description>Perfect for fixing of timber, these 50mm galvanised nails are designed to be resistant to not only corosion and the weather, but also to bending, should a misplaced hammer strike go astray. Includes 100 nails per box.</description>
+  </product>
+  <!-- Gardening Category -->
+  <product>
+    <category>Gardening</category>
+    <code>G0007</code>
+    <name>Maxwells Timber Handled Rake</name>
+    <price>34.00</price>
+    <image>rake.png</image>
+    <description>Ideal for working in the garden, the Maxwell timber handled rake is suited to a variety of garden taks including weeding, planting, clearing and general garden maintenance.</description>
+  </product>
+  <product>
+    <category>Gardening</category>
+    <code>G0008</code>
+    <name>Maxwells Timber Handled Shovel</name>
+    <price>36.00</price>
+    <image>shovels.png</image>
+    <description>The Maxwells timber handled shovel comes with the option of three different shaped heads, allowing the buyer to choose the perfect shovel for the job. These shovels are ideal for garden or construction work. Common taks that could be accomplished include planting, weeding, post hole digging, mixing of concrete and a veriety of general maintenance tasks.</description>
+  </product>
+  <product>
+    <category>Gardening</category>
+    <code>G0009</code>
+    <name>Maxwells Secateurs</name>
+    <price>26.00</price>
+    <image>secateurs.png</image>
+    <description>The Maxwells secateurs are perfect for pruning tasks around the garden. Capable of cutting up to small branches (22mm) while maintaining a comfortable grip, thanks to the molded rubber coated handle.</description>
+  </product>
+</productlist>

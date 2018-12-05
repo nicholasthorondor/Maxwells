@@ -1,0 +1,497 @@
+﻿/* Core styling */
+html {
+    font-size: 62.5%;
+    height: 100%;
+}
+
+body {
+    color: #272822;
+    font-family: 'Baskerville Old Face', Verdana, sans-serif;
+    font-size: 1.6rem;
+    margin: 0;
+    min-height: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+/* Home page content */
+.heroImg {
+    border-bottom: 2px solid black;
+    width: 100%;
+    max-height: 100%;
+}
+
+#companyInfo {
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    padding-bottom: 2.5%;
+}
+
+.companyName {
+    font-family: 'Brush Script MT';
+    font-size: 10rem;
+    display: block;
+    padding-top: 5rem;
+}
+
+.companyStatement {
+        font-size: 2rem;
+        line-height: 1.5;
+        padding: 0 4rem 0 4rem;
+}
+
+/* Product listings content page */
+#categoryBanner {
+    border-bottom: 2px solid black;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.productContainer {
+    font-size: 1.8rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.productBox {
+    display: inline-block;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 30%;
+}
+
+.productImageMed {
+    max-height: 250px;
+    max-width: 250px;
+    margin-bottom: 3rem;
+}
+
+.productImageLrg {
+    display: inline-block;
+    padding-left: 5%;
+    max-height: 400px;
+    max-width: 400px;
+    margin-top: 17%;
+    width: 48%;
+}
+
+.productContainerDetail {
+    text-align: left;
+    margin-bottom: 3%;
+}
+
+.productBoxDetail {
+    display: inline-block;
+    padding-left: 8%;
+    margin-top: 17%;
+    vertical-align: top;
+    margin-left: 2rem;
+    width: 48%;
+}
+
+.description {
+    padding-top: 20px;
+}
+
+.horizontalRule {
+    margin-left: 0;
+    width: 40%;
+    text-align: left;
+}
+
+.productName {
+    font-size: 3rem;
+    display: block;
+}
+
+.productCode {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: block;
+    padding-top: 1.5rem;
+}
+
+.productPrice {
+    color: #e78200;
+    display: block;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: 1.5rem;
+}
+
+.cartButton {
+   background-color: #e78200;
+   color: white;
+   cursor: pointer;
+   font-family: 'Birch Std';
+   font-size: 2.5rem;
+   padding: 0.8rem;
+   margin-top: 1.5rem;
+   border: 1px solid black;
+}
+
+.infoButton {
+    background-color: #808080;
+    border: 1px solid black;
+}
+
+.infoLink {
+    text-decoration: none;
+}
+
+.price {
+    color: #e78200;
+}
+
+.selectBox {
+    margin-left: 1rem;
+}
+
+.backButtonContainer {
+    padding-top: 8%;
+    float: left;
+    margin: 0;
+    width: 0;
+    margin-left: 1rem;
+}
+
+.backButton {
+   background-image: none;
+   box-shadow: none;
+   background-color: transparent;
+   border: 1px solid black;
+   border-radius: 0.5rem;
+   font-family: 'Birch Std';
+   font-size: 2rem;
+   padding: 0.3rem;
+   cursor: pointer;
+}
+
+.breadcrumbLink {
+   color: black;
+   font-family: 'Baskerville Old Face';
+   letter-spacing: 0.2rem;
+   font-size: 2rem;
+   padding-left: 1.5rem;
+   font-weight: bold;
+   text-decoration: none;
+}
+
+    .breadcrumbLink:visited {
+        color: black;
+    }
+
+    .breadcrumbLink:hover {
+        color: #e78200;
+    }
+
+.breadcrumbSeperator {
+    display: inline;
+    padding-left: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Shopping Cart*/
+.shoppingCartTopSpacer {
+    padding-top: 8%;
+}
+
+#controlsContainer {
+    padding: 5rem;
+    font-size: 1.8rem;
+}
+
+#lblCartTitle {
+    display: block;
+    font-family: 'Birch Std';
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    padding-bottom: 3rem;
+}
+
+.cartImg {
+    max-height: 80px;
+    width: 80px;
+    padding-right: 3.5rem;
+    border-left: 2px solid #e78200;
+    padding-left: 2rem;
+}
+
+.cartItems {
+    display: inline-block;
+    padding-bottom: 3rem;
+    width: 10%;
+    text-align: right;
+}
+
+.cartQuantity {
+    display: inline-block;
+    margin-left: 100px;
+    width: 2%;
+}
+
+.cartItemPrice {
+    font-weight: bold;
+}
+
+.cartItemName {
+    text-align: center;
+    padding-left: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+    .cartItemName:visited {
+        color: black;
+    }
+
+    .cartItemName:hover {
+        color: #e78200;
+    }
+
+.cartUpdateQuantity {
+    text-decoration: none;
+    color: #e78200;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+}
+
+.removeBtn {
+    margin-left: 6rem;
+    width: 30px;
+    height: 30px;
+    vertical-align: bottom;
+    position: relative;
+    top: 0.3rem;
+}
+
+#lblShipping, #lblGrandTotal {
+    display: block;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: right;
+    width: 50%;
+}
+
+#lblShipping {
+    font-weight: normal;
+    font-size: 1.7rem;
+}
+
+#checkoutBtnDiv {
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    text-align: right;
+    width: 50%;
+}
+
+#btnCheckout {
+    background-color: green;
+    border-radius: 0.5rem;
+    width: 20%;
+}
+
+/* Checkout, Summary and Thanks page */
+#shoppingCompleteContainer {
+    width:100%;
+}
+
+#btnBackToHome {
+    display: block;
+    margin: 4rem auto;
+}
+
+
+.message {
+    padding-bottom: 4rem;
+    text-align: center;
+    margin: auto;
+    width: 99%;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.secondaryMessage {
+    font-size: 3.5rem;
+    display: block;
+}
+
+.errorMessage {
+    color: red;
+    font-weight: bold;
+}
+
+.formText {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.formHeaders {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    border-bottom: 2px solid #e78200;
+}
+
+.formSubHeaders {
+    border-radius: 0.5rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    background-color: rgba(150, 150, 150, 0.3);
+    padding: 0.5rem;
+}
+
+.detailsHide {
+    display: none;
+}
+
+.leftColumn {
+    display: inline-block;
+    width: 49%;
+}
+
+.rightColumn {
+    display:inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+
+.summaryBoldText {
+    font-weight: bold;
+}
+
+#billingDetailsContainer, #shippingToggleContainer, #paymentDetailsContainer, #shippingDetailsContainer {
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    width: 55%;
+    font-size: 1.7rem;
+    border: 1px solid black;
+    background-color: rgba(237, 237, 237, 0.70);
+    padding: 2rem;
+}
+
+#pageContainer {
+    padding-left: 3rem;
+}
+
+.summaryContainers {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    margin-right: 3rem;
+    font-size: 1.7rem;
+    border: 1px solid black;
+    background-color: rgba(237, 237, 237, 0.70);
+    padding: 2rem;
+}
+
+.summaryCartItemName {
+    text-align: center;
+    padding-left: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+    .summaryCarItemName:hover {
+        color: black;
+    }
+
+    .summartCartItemName:visited {
+        color: black;
+    }
+
+#btnShippingToggle {
+    border-radius: 0.5rem;
+    background-color: rgba(150, 150, 150, 0.3);
+    border: 1px solid black;
+    padding: 1rem;
+    cursor: pointer;
+    margin-left: 2rem;
+}
+
+    #btnShippingToggle:hover, #btnShippingToggle:active {
+       background-color: white;
+    }
+
+/* Navigation header bar */
+.CategoryLinkButton {
+	border: 1px solid black;
+    border-radius: 0.5rem;
+    color: #272822;
+    font-family: 'Birch Std';
+    font-size: 3.5rem;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+    .CategoryLinkButton:hover {
+        background-color: #e78200;
+        color: white;
+    }
+
+.navSpacer {
+    width: 10%;
+}
+
+.categoryLinkCell {
+    text-align: center;
+    width: 20%;
+}
+
+.logoCell {
+    width: 20%;
+}
+
+.cartButtonCell {
+    width: 20%;
+}
+
+header {
+    background-color: white;
+    border-bottom: 2px solid black;
+	position: fixed;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+}
+
+/* Footer bar */
+.footerCell {
+    padding: 2rem 0 2rem 2rem;
+    line-height: 0.5;
+    width: 20%;
+}
+
+.footerTitle {
+    color: #e78200;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: #272822;
+    border-top: 2px solid black;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+form {
+    padding-bottom: 5%;
+}
